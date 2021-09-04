@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: "Audiowide", sans-serif;
+    background-image: linear-gradient(rgb(74, 19, 138), rgb(21, 1, 44));
+}
+span{
+    font-family: inherit;
+}
+#logo-bar{
+    text-align: center;
+    width: 850px;
+    height: 50px;
+    background: rgb(21, 1, 44);
+    margin: 0 auto;
+    border-radius: 30px 20px 10px;
+    -webkit-box-shadow: 9px 7px 5px rgba(153, 0, 120, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(87, 0, 68, 0.77);
+	box-shadow:         9px 7px 5px rgba(58, 0, 45, 0.77);
+}
+#logo-bar p{
+    margin: 5px;
+    font-family: "Audiowide", sans-serif;
+    color:white;
+    padding: 14px;
+}
+#lateral-bar{
+    margin: 5px;
+    float: right;
+    width: 100px;
+}
+#conteudo-principal{
+    border-radius:10px;
+    width: 850px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgb(21, 1, 44);
+}
+#stacks{
+    border-radius:10px;
+    width: 850px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: rgb(21, 1, 44);
+}
+#stacks ul{
+    border: none;
+    color: white;
+    margin-left: 160px;
+    background-color: rgb(21, 1, 44);
+    display: flex;
+}
+#stacks li{
+    text-align: center;
+    padding: 20px;
+}
+#conteudo-principal  h2{
+    padding: 5px;
+    margin: 30px;
+}
+#about-me{
+    border-radius:10px;
+    width: 850px;
+    height: 400px;
+    margin: 30px auto;
+    background-color: rgb(21, 1, 44);
+}
+h1 {
+    letter-spacing: 3px;
+    margin: 20px 100px;
+    color: white;
+    text-shadow: 0 0 0.2em rgb(255, 0, 212)
+}
+#about-me h2{
+    color: white;
+    padding: 5px;
+    margin: 30px;
+}
+#about-me p{
+    margin: 5px;
+    font-family: "Audiowide", sans-serif;
+    color:white;
+    padding: 14px;
+}
+
+ul{
+    text-align: center;
+    border-radius: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color:rgba(58, 0, 45, 0.77);
+}
+li a{
+    border-radius: 30px;
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    border-radius: 30px;
+    background-color: rgba(153, 0, 120, 0.77);
+    color: violet;
+}
+#conteudo-principal h2{
+    letter-spacing: 3px;
+    color: white;
+}
+.img{
+    transform: rotate(30deg);
+    border: inset rebeccapurple 4px;
+    padding: 20px;
+    margin-left: -30px;
+    margin-top: -100px;
+    border-radius: 150px;
+    float: right;
+}
+.botao{
+    width: 80px;
+    height: 30px;
+    margin-left: 200px;
+    margin-top: 100px;
+    color: white;
+    transition-duration: 0.4s;
+}
+.botao:hover{
+    background-color: #3c005f;
+    color: white;
+}
